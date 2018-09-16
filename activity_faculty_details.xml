@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyDetails">
+
+    <TextView
+        android:id="@+id/sub"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Subject"
+        android:layout_alignTop="@+id/facName2"
+        android:text="Sub"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/year2"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/subSave"
+        android:layout_alignTop="@+id/sub"
+        android:text="Year"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/shortcuts"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_alignTop="@+id/sub"
+        android:layout_marginTop="0dp"
+        android:text="Shortcuts"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/facName2"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="116dp"
+        android:text="Name"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <EditText
+        android:id="@+id/Subject"
+        android:layout_width="59dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="Java"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="64dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/subSave"
+        android:layout_alignTop="@+id/editText2"
+        android:ems="10"
+        android:hint="2nd"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="82dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/Subject"
+        android:layout_marginStart="130dp"
+        android:ems="10"
+        android:hint="Mr. JG"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="97dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="151dp"
+        android:ems="10"
+        android:hint="Mr.James Gosling"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <Button
+        android:id="@+id/subSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="64dp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/SubAdd"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_centerVertical="true"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="174dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:layout_toEndOf="@+id/facName2"
+        android:text="Faculty Details"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>
